@@ -19,6 +19,6 @@ jobs:
       with:
         dotnet-version: '6.0.x'
     - name: Build
-      run: dotnet build C:/Users/amper/Documents/GitHub/APIAPI/src/SocNet1/SocNet1.sin --configuration Release
+      run: dotnet build src/SocNet1/SocNet1.sln --configuration Release
     - name: Test
-      run: dotnet test C:/Users/amper/Documents/GitHub/APIAPI/src/SocNet1/SocNet1.sin --configuration Release --no-build
+      run: dotnet test src/SocNet1/SocNet1.sln --configuration Release --no-build
